@@ -1782,7 +1782,7 @@ Lint/UselessAssignment:
   Exclude:
     - 'app/lib/aggregates.rb'
 
-Lint/UselessComparison:
+Lint/BinaryOperatorWithIdenticalOperands:
   Description: 'Checks for comparison of something with itself.'
   Enabled: true
   VersionAdded: '0.11'
@@ -3011,7 +3011,7 @@ Style/MethodDefParentheses:
     - require_no_parentheses
     - require_no_parentheses_except_multiline
 
-Style/MethodMissingSuper:
+Lint/MissingSuper:
   Description: Checks for `method_missing` to call `super`.
   StyleGuide: '#no-method-missing'
   Enabled: true
